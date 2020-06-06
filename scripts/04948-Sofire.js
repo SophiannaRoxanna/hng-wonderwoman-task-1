@@ -1,7 +1,9 @@
-const display = (name, hngID,language,email) => {
-    return `Hello World,this is ${name} with HNGi7 ID ${hngID} and email ${email} using ${language} for stage 2 task`;
-    
-}
+var myFullName = 'Ukpe Sophia Abel';
+var myHngId = 'HNG-04948';
+var myProgLanguage = 'javascript';
+var myEmail = 'sopbel7@gmail.com'
+var introMessage = 'Hello World, this is ' + myFullName + ' with HNGi7 ID ' + myHngId + ' using ' + myProgLanguage + ' for stage 2 task' + ' ' + myEmail + '';
 
-display("Akinsiku OLuwafemi David", "HNG-00504", "Javascript", "akinsiku.o@yahoo.com");
+console.log(introMessage);
+
 
